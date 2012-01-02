@@ -1,12 +1,10 @@
-#!/usr/bin/python
-
 ########################################################
-# Projekt do předmětu PBI
-# Zobrazení vyhledaných strukturních elementů
+# Projekt do predmetu PBI
+# Zobrazeni vyhledanych strukturnich elementu
 # 31.12.2011
 # Autor Ondrej Benes<xbenes00@stud.fit.vutbr.cz>
 #
-# (c) Copyright 2011 Ondra Beneš. All Rights Reserved. 
+# (c) Copyright 2011 Ondra Benes. All Rights Reserved. 
 ########################################################
 
 import pymol

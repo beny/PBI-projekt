@@ -14,7 +14,7 @@ require "bio"
 require "net/http"
 
 # debug flag
-D = true
+D = false
 
 def get_name(name)
   name.partition("_")[0]

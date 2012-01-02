@@ -32,7 +32,9 @@ Pro visualizaci je prilozen druhy skript a to visualize.py v jazyce Python. Jedn
 Výsledky analýzy
 ================
 1A06
+
 ![1A06](https://github.com/beny/PBI-2011/raw/master/1A06.png)
 
 2A2A
+
 ![2A2A_C](https://github.com/beny/PBI-2011/raw/master/2A2A_C.png)

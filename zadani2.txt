@@ -1,0 +1,28 @@
+Projekt - verze B:
+------------------
+Struktura proteinů úzce souvisí s jejich funkcí. Jak analýza sekvence, tak analýza struktury může identifikovat části proteinů odpovědné za specifické funkce. Vaším úkolem bude pro sadu PDB struktur identifikovat strukturní elementy, které jsou pro ně společné a obsahují stejné aminokyseliny se stejnými vztahy sousedství. Za strukturní element budeme považovat libovolný počet aminokyselin tak, aby ve struktuře nebyla vzdálenost mezi žádnou dvojicí C-alfa uhlíků větší než 6 angstromů, tuto vzdálenost budeme uvažovat i jako hranici sousedství. Nalezené společné strukturní motivy vizualizujte ve 3-D struktuře.
+POZOR ZMĚNA! Analýzu implementujte pomocí vhodných programových prostředků, tak aby vstupem analýzy mohl být seznam identifikátorů PDB uložen v textovém souboru a výstupem byl seznam aminokyselin ve strukturních elementech a jejich pořadových čísel. Vytvořte skript pro Pymol, který dané strukturní elementy  v libovolném proteinu identifikuje a zvýrazní.
+Poznámka: Pokud pro strukturní element v jednom proteinu existuje více odpovídajících ve druhém, zvolte si vlastní metodu pro určení, který pár budete brát za platný, ostatní ignorujte.
+FUNKCE
+strelement_finder - nalezne strukturní elementy společné pro všechny proteiny v sadě, které se vzájemně nepřekrývají
+VSTUP
+1A06_A
+2DVH_
+5DVJ_B
+...
+VÝSTUP
+1A06_A 2DVH_  5DVJ_B
+A 31 16 5
+L 32 17 6
+R 33 18 7
+L 34 19 8
+G 35 20 9
+H 121 92 66
+V 122 93 67
+G 123 94 68
+D 124 95 69
+E 77 66 123
+...
+Odevzdejte:
+- krátký popis projektu (co jste vytvořil, zejména věci, které nejsou dostatečně popsány v zadání, testovací data, výsledek testu ve formě textového výstupu a obrázek z PyMolu)
+- zdrojový kod
